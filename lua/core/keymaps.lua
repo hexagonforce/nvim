@@ -4,10 +4,8 @@ vim.keymap.set('n', '<leader>h', ':bp<CR>')
 vim.keymap.set('n', '<leader>l', ':bn<CR>')
 vim.keymap.set('n', '<leader>d', ':bd<CR>')
 vim.keymap.set('n', '<leader>c', ':let @/=""<CR>')
-vim.keymap.set('n', '<leader>t', ':set tags=./tags,tags;<CR>')
 vim.keymap.set('n', '<leader>g', ':! g++ -std=c++20 -Wall -Wextra -pedantic -o "%:t:r.out" "%"<CR>')
 
 vim.keymap.set('n', '<leader>src', ':source $MYVIMRC<CR>')
 vim.keymap.set('n', '<leader>vi', ':tabe ~/.config/nvim<CR>')
 
-vim.keymap.set('n', '<leader>ee', ':NvimTreeFindFileToggle<CR>')
