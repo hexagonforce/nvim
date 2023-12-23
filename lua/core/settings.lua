@@ -19,3 +19,4 @@ vim.opt.expandtab = true
 
 vim.opt.termguicolors = true
 vim.opt.filetype = "on"
+vim.g.vimwiki_list = {{path = '~/Documents/VimWiki', syntax = 'markdown', ext='.md'}}
