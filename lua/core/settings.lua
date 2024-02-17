@@ -17,6 +17,11 @@ vim.opt.shiftwidth = 4
 vim.opt.shiftround = true
 vim.opt.expandtab = true
 
+vim.opt.foldmethod = "indent"
+vim.opt.foldenable = false
+vim.opt.foldlevel = 99
+vim.g.markdown_folding = 1
+
 vim.opt.termguicolors = true
 vim.opt.filetype = "on"
 vim.g.vimwiki_list = {{path = '~/Documents/VimWiki', syntax = 'markdown', ext='.md'}}
