@@ -25,6 +25,5 @@ vim.g.markdown_folding = 1
 vim.opt.termguicolors = true
 vim.opt.filetype = "on"
 vim.g.vimwiki_list = {{path = '~/Documents/VimWiki', syntax = 'markdown', ext='.md'}}
-
+vim.g.vimwiki_global_ext = 0
 vim.o.background = "light"
-vim.cmd([[colorscheme gruvbox]])

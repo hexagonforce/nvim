@@ -9,7 +9,7 @@ vim.keymap.set('n', '<leader>vs', ':vertical split<CR>')
 vim.keymap.set('n', '<leader>hs', ':split<CR>')
 vim.keymap.set('n', '<leader>ss', ':mks! ~/session.vim<CR>')
 vim.keymap.set('n', '<leader>so', ':source ~/session.vim<CR>')
-vim.keymap.set('n', '<leader>ee', ':Explore<CR>')
+vim.keymap.set('n', '<leader>ee', ':NvimTreeFindFileToggle<CR>')
 
 vim.keymap.set('n', '<leader>src', ':source $MYVIMRC<CR>')
 vim.keymap.set('n', '<leader>vi', ':tabnew ~/.config/nvim<CR>')
