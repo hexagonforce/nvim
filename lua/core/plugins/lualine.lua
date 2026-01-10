@@ -7,7 +7,7 @@ return {
     {
       options = {
         icons_enabled = true,
-        theme = 'tokyonight',
+        theme = 'auto',
         disabled_filetypes = {
           'NvimTree',
         },
