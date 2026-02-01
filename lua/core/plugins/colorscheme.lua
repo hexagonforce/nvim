@@ -1,10 +1,9 @@
 return {
-    'catppuccin/nvim',
-    name = 'catppuccin',
+    'folke/tokyonight.nvim',
+    name = 'tokyonight',
     lazy = false,
     priority = 1000,
     config = function()
-      vim.cmd([[colorscheme catppuccin]])
-      vim.o.background = "light"
+      vim.cmd([[colorscheme tokyonight]])
     end
 }
