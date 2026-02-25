@@ -22,12 +22,6 @@ return {
             path = 1,
           }
         }
-      },
-      tabline = {
-        lualine_a = {'buffers'},
-        lualine_x = {},
-        lualine_y = {},
-        lualine_z = {'tabs'}
       }
     })
   end
